@@ -1,0 +1,612 @@
+/* ============================================
+            Common Css Start
+=============================================*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ============================================
+            Common Css End
+=============================================*/
+
+
+/* ============================================
+            MenuBar Css Start
+=============================================*/
+
+.main_menu {
+    display: flex;
+    align-items: center;
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.menu_logo {
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.menu_logo img {
+    width: 48px;
+    height: 56.008px;
+}
+
+.menu_logo p {
+    color: #131318;
+    font-family: 'Mulish', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.menu_logo p span {
+    color: #FF5400;
+}
+
+.menu_content {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+
+}
+
+.menu_content a {
+    text-decoration: none;
+    color: #FF5400;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 44px;
+}
+
+.menu_content a:nth-child(5) {
+    margin-right: 0px;
+}
+
+.menu_content span a {
+    color: #424247;
+    margin-right: 44px;
+}
+
+.bars {
+    display: none;
+}
+
+/* ============================================
+            MenuBar Css End
+=============================================*/
+
+
+/* ============================================
+            Banner Css Start
+=============================================*/
+
+
+#banner {
+    background: url(../images/Group\ 13\ \(1\)\ \(1\).png);
+    height: 500px;
+    background-size: cover;
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+#banner img {
+    border-radius: 16px;
+
+}
+
+#banner h1 {
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    padding-top: 106px;
+}
+
+#banner p {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    padding: 47px 247px;
+
+}
+
+.opt {
+    text-align: center;
+    padding-bottom: 106px;
+
+
+}
+
+.opt select {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    color: rgba(19, 19, 24, 0.50);
+}
+
+.opt option {
+    color: rgba(19, 19, 24, 0.50);
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 10px;
+    text-align: center;
+}
+
+.opt button {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: 0;
+    text-align: center;
+}
+
+.opt button .fa-magnifying-glass {
+    color: #FFF;
+}
+
+/* ============================================
+            Banner Css End
+=============================================*/
+
+
+/* ============================================
+            MenuBar Css Start
+=============================================*/
+
+.popular_tours {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 30px;
+
+}
+
+.tour_content {
+    padding-right: 20px;
+}
+
+.tour_content button {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 174px;
+    height: 52px;
+    margin-top: 12px;
+}
+
+.tour_content h3 {
+    color: #131318;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.tour_content p {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 20px;
+}
+
+.tour_content ul li {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    padding-top: 20px;
+}
+
+.tour_images img {
+    width: 540px;
+    height: 550px;
+}
+
+/* ============================================
+            MenuBar Css End
+=============================================*/
+
+
+/* ============================================
+            MenuBar Css End
+=============================================*/
+.destinaton {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.destinaton h4 {
+    color: #131318;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.destinaton p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    width: 643px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 auto;
+}
+
+
+/* ============================================
+            MenuBar Css End
+=============================================*/
+.tourist_spot_images {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.images_sec img {
+    margin: 2px;
+}
+
+/* ============================================
+            MenuBar Css End
+=============================================*/
+
+/* ============================================
+            MenuBar Css End
+=============================================*/
+.why_choose {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.why_choose h3 {
+    color: #131318;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.why_choose p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    width: 643px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 auto;
+}
+
+/* ============================================
+            MenuBar Css End
+=============================================*/
+/* ============================================
+            MenuBar Css End
+=============================================*/
+.facilities {
+    display: flex;
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+}
+
+.hotel {
+    width: 585px;
+}
+
+.service {
+    width: 585px;
+}
+
+.facilities h6 {
+    color: #131318;
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.facilities p {
+    color: #5A5A5D;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 486px;
+}
+
+.facilities .money_tag {
+    justify-content: center;
+}
+
+
+/* ============================================
+            MenuBar Css End
+=============================================*/
+
+.discount {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.discount h3 {
+    color: #131318;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.discount p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    width: 643px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 auto;
+}
+
+.package {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.column_one {
+    background-image: url(../images/Group\ 39.png);
+    height: 500px;
+    position: relative;
+    padding-top: 56px;
+    margin-bottom: 10px;
+
+}
+
+.package_detals {
+    display: flex;
+    justify-content: space-around;
+}
+
+.all_item {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 579px;
+    height: 389px;
+    position: absolute;
+    right: 0;
+    padding: 30px 0 30px 56px;
+}
+.all_item h3{
+    color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-align: center;
+}
+.all_item p{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+text-align: left;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+width: 452px;
+}
+.all_item h4{
+    color: #FF5400;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.all_item button {
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+width: 150px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+}
+
+.fa-clock, .fa-users, .fa-location-dot{
+    color: #FF5400;
+}
+.column_two {
+    background-image: url(../images/Group\ 40.png);
+    height: 500px;
+    position: relative;
+    padding-top: 56px;
+    margin-bottom: 10px;
+
+}
+
+.package_detals {
+    display: flex;
+    justify-content: space-around;
+}
+
+.all_item {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 579px;
+    height: 389px;
+    position: absolute;
+    right: 0;
+    padding: 30px 0 30px 56px;
+}
+.all_item h3{
+    color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-align: center;
+}
+.all_item p{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+text-align: left;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+width: 452px;
+}
+.all_item h4{
+    color: #FF5400;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.all_item button {
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+width: 150px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+}
+
+.fa-clock, .fa-users, .fa-location-dot{
+    color: #FF5400;
+}
+.column_tree {
+    background-image: url(../images/Group\ 39.png);
+    height: 500px;
+    position: relative;
+    padding-top: 56px;
+    margin-bottom: 10px;
+}
+
+.package_detals {
+    display: flex;
+    justify-content: space-around;
+}
+
+.all_item {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 579px;
+    height: 389px;
+    position: absolute;
+    right: 0;
+    padding: 30px 0 30px 56px;
+    margin-right: 56px;
+}
+.all_item h3{
+    color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-align: center;
+}
+.all_item p{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+text-align: left;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+width: 452px;
+}
+.all_item h4{
+    color: #FF5400;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.all_item button {
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+width: 150px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+}
+
+.fa-clock, .fa-users, .fa-location-dot{
+    color: #FF5400;
+}
